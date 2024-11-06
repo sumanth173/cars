@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <picture>
+            <source media="(min-width:650px)" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Mahindra_Thar_Photoshoot_At_Perupalem_Beach_%28West_Godavari_District%2CAP%2CIndia_%29_Djdavid.jpg/800px-Mahindra_Thar_Photoshoot_At_Perupalem_Beach_%28West_Godavari_District%2CAP%2CIndia_%29_Djdavid.jpg" height="500">
+            <source media="(min-width:465px)" srcset="https://d2m3nfprmhqjvd.cloudfront.net/blog/20230728132504/Spinny-Assured-2020-VW-Vento.webp">
+            <img src="https://imgk.timesnownews.com/story/XUV700_black_front_lead.jpg" alt="" height="350">
+            
+        </picture>
+        <label for="op"></label>
+        <select name="op" id="op">
+            <option value="option1">Option1</option>
+            <option value="option2" selected>Option2</option>
+            <option value="option3">Option3</option>
+        </select>
+        <label for="car"></label>
+        <input list="cars" name="car" id="car">
+        <datalist id="cars">
+            <option value="Lamborgini"></option>
+            <option value="Mahindra Thar"></option>
+            <option value="volkswagon"></option>
+            <option value="Ferrari"></option>
+        </datalist>
+        <input type="submit" formaction="cars.html">
+    </form>
+</body>
+</html>
